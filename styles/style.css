@@ -58,21 +58,122 @@
         display: none;
     }
 
+    .main {
+        max-width: 1170px;
+        margin-left: 165px;
+        margin-right: 165px;
+        margin-top: 50px;
+
+    }
+
+    .banner {
+        background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-color: grey;
+        background-blend-mode: multiply;
+        width: 1170px;
+        height: 500px;
+        border-radius: 16px;
+        flex-shrink: 0;
+        text-align: center;
+        display: block;
+        align-items: center;
+    }
+
+    .banner h1 {
+        padding-top: 106px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner .des {
+
+        width: 676px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0 auto;
+
+
+    }
+
+    .select {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        padding-top: 45px;
+    }
+
+    .select>button {
+        width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+    }
+
+    .select img {
+        height: 24px;
+        width: 24px;
+        padding-top: 15px;
+        margin-right: 5px
+    }
+
+    .select p {
+        padding-bottom: 15px;
+    }
+
+
+    select,
+    .select>input {
+        color: rgba(19, 19, 24, 0.50);
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 15px;
+        padding-right: 24px;
+        width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+        border: none;
+    }
+
 }
 
 
 
 @media screen and (max-width: 600px) {
 
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-between;
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    .nav-logo{
-        display:flex;
+    .nav-logo {
+        display: flex;
     }
 
 
@@ -102,8 +203,122 @@
         margin-left: 5px;
     }
 
-    .nav-items{
+    .nav-items {
         display: none;
+    }
+
+    .main {
+        /* max-width: 375px; */
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner {
+        margin-top: 17px;
+        width: 100%;
+        height: 483px;
+        border-radius: 16px;
+        flex-shrink: 0;
+        background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-color: grey;
+        background-blend-mode: multiply;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-position: 50% 50%;
+
+    }
+    .section1{
+        min-width: 335px;
+    }
+
+    .banner h1 {
+        padding-top: 24px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner .des {
+        width: 304px;
+
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin: 0 auto;
+
+
+    }
+
+    .select {
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        margin: 0 auto;
+
+
+    }
+
+    .select>button {
+        width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 48px;
+    }
+
+    .select img {
+        height: 24px;
+        width: 24px;
+        padding-top: 15px;
+        margin-right: 5px
+    }
+
+    .select p {
+        padding-bottom: 15px;
+    }
+
+
+    select,
+    .select>input {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+        color: rgba(19, 19, 24, 0.50);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
     }
 
 }
