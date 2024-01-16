@@ -457,11 +457,14 @@
         background-image: url(../Images/Group\ 39.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
+        /* width: 100%; */
+        width: 1170px;
         height: 500px;
         border-radius: 16px;
         padding-top: 56px;
         padding-right: 56px;
+        margin-left: 0;
+        margin-right: 0;
 
     }
 
@@ -529,18 +532,21 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-bottom: 100px;
+        margin-bottom: 300px;
     }
 
     .banner3 {
         background-image: url(../Images/Group\ 40.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
+        /* width: 100%; */
+        width: 1170px;
         height: 500px;
         border-radius: 16px;
         padding-top: 56px;
         padding-right: 56px;
+        margin-left: 0;
+        margin-right: 0;
 
     }
 
@@ -566,7 +572,7 @@
 
     }
 
-    .section5  .pbutton {
+    .section5 .pbutton {
         width: 210px;
         height: 52px;
         flex-shrink: 0;
@@ -581,9 +587,84 @@
         line-height: normal;
         margin-top: 48px;
         margin-left: 43%;
-        
+        margin-bottom: 100px;
+
     }
 
+    /* SECTION 6 */
+
+
+    .section6 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1500px;
+        /* width: 100%; */
+        width: 1200px;
+        margin-left: 0;
+        margin-right: 0;
+
+
+    }
+
+
+
+    /* .simple-place {
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+       padding: 0;
+    
+    } */
+
+    .simple-place h3 {
+        margin-top: 0;
+        text-align: left;
+        padding: 0;
+
+    }
+
+    .simple-place .description {
+        max-width: 532px;
+        padding: 0;
+
+    }
+
+    .simple-place li {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+
+    iframe {
+        width: 610px;
+        height: 424px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+        padding: 0;
+
+    }
+
+    .section6 button {
+        width: 210px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 100px;
+        border: none;
+
+    }
 
 
 
@@ -1153,6 +1234,36 @@
         font-weight: 400;
         line-height: normal;
         margin-top: 45px;
+    }
+
+    /* SECTION 6 */
+
+    .section6{
+        margin-top: 1650px;
+        display: block;
+    }
+
+    .section6 button{
+        width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border:none;
+margin-bottom: 48px;
+    }
+
+    iframe{
+        width: 100%;
+height: 200px;
+border-radius: 16px;
+background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
     }
 
 }
