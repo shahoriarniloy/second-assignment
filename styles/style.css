@@ -164,7 +164,6 @@
         padding-right: 24px;
         width: 174px;
         height: 52px;
-        flex-shrink: 0;
         border-radius: 8px;
         background: #FFF;
         border: none;
@@ -225,7 +224,6 @@
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
-        /* 162.5% */
     }
 
     /* SECTION 3 */
@@ -361,9 +359,10 @@
     .section4 {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         text-align: center;
+        margin-top: 100px;
 
     }
 
@@ -373,7 +372,7 @@
         gap: 24px;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .box img {
@@ -428,16 +427,145 @@
         margin-bottom: 16px;
     }
 
-    .box-content{
+    .box-content {
         padding-left: 32px;
     }
 
-    .box-content .description{
+    .box-content > .description {
         max-width: 486px;
 
     }
 
+    /* SECTION 5 */
+
+    .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section5 > .intro{
+        margin-top: 100px;
+        text-align: center;
+    }.section5 > .intro > .description{
+        margin-bottom: 45PX;
+    }
+
+    .banner2 {
+        background-image: url(../Images/Group\ 39.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        border-radius: 16px;
+        padding-top: 56px;
+        padding-right: 56px;
+
+    }
+
+    .banner-box {
+        margin-left: 535px;
+        padding-top: 52px;
+        margin-right: 56px;
+        padding-left: 50px;
+        width: 579px;
+        height: 389px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        margin-bottom: 100px;
+
+    }
+
+    .group {
+        display: flex;
+        justify-content: space-between;
+        max-width: 150px;
+       
+        
+
+
+    }
+
+    .group > .description{
+        margin: 0;
+
+    }
+
+    .icon{
+        height: 24px;
+      
+    }
+
+    .banner-title{
+        display: flex;
+        justify-content:first baseline;
+       
+    }
+    h5 {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .section5 button {
+        width: 150px;
+height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 100px;
+    }
+
+    .banner3 {
+        background-image: url(../Images/Group\ 40.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        border-radius: 16px;
+        padding-top: 56px;
+        padding-right: 56px;
+
+    }
+
+    .banner3-title{
+        display: flex;
+        justify-content:first baseline;
+       
+    }
+
+    .banner3-box {
+        margin-left: 56px;
+        padding-top: 52px;
+        margin-right: 56px;
+        padding-left: 50px;
+        width: 579px;
+        height: 389px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        margin-bottom: 100px;
+
+    }
+
     
+
+
+
 
 
 
@@ -743,17 +871,18 @@
     .section4 {
         display: block;
         flex-direction: column;
-        
+
     }
 
-    .section4 .description{
+    .section4 .description {
         text-align: center;
     }
 
-    .box-content h4{
+    .box-content h4 {
         text-align: left;
     }
-    .box-content .description{
+
+    .box-content .description {
         text-align: left;
 
 
@@ -763,6 +892,7 @@
         padding-top: 32px;
         height: 48px;
     }
+
     .box3 img {
         padding-top: 32px;
         height: 48px;
