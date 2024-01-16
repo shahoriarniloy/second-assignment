@@ -382,7 +382,6 @@
 
     .box1 {
         padding-left: 32px;
-        /* padding-right: 55px; */
 
         width: 573px;
         height: 284px;
@@ -874,13 +873,46 @@ height: 52px;
 
     }
 
-    .section4 .description {
+    .section4 > .description {
         text-align: center;
     }
 
     .box-content h4 {
         text-align: left;
     }
+    .box1{
+        max-width: 335px;
+height: 289px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+ margin-bottom: 16px;
+ padding: 1%;
+    }
+
+    .box2{
+        max-width: 335px;
+height: 289px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+margin-bottom: 16px;
+padding: 1%;
+    }
+
+    }
+
+    .box3{
+        max-width: 335px;
+height: 289px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-bottom: 16px;
+padding: 1%;
+    }
+
+
 
     .box-content .description {
         text-align: left;
@@ -898,6 +930,25 @@ height: 52px;
         height: 48px;
     }
 
+    h4 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+
+
+    /* SECTION 5 */
+
+    .section4 {
+        display: block;
+        flex-direction: column;
+
+    }
 
 
 
