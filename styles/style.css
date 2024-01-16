@@ -184,7 +184,7 @@
         padding-bottom: 15px;
     }
 
-    .popular-tours h3 {
+    h3 {
         color: #131318;
         text-align: center;
         font-family: Mulish;
@@ -238,7 +238,7 @@
 
     }
 
-    .section3 h3 {
+    h3 {
         color: #131318;
         font-family: Mulish;
         font-size: 40px;
@@ -254,7 +254,7 @@
 
     }
 
-    .section3 small {
+    .section3 p {
         color: rgba(19, 19, 24, 0.70);
         font-family: Mulish;
         font-size: 16px;
@@ -354,6 +354,90 @@
         transform: translate(-50%, -50%);
         padding: 10px;
     }
+
+
+    /* SECTION 4 */
+
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .box img {
+        padding-top: 32px;
+        height: 64px;
+    }
+
+    .box1 {
+        padding-left: 32px;
+        /* padding-right: 55px; */
+
+        width: 573px;
+        height: 284px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+
+    .box2 {
+
+
+        width: 573px;
+        height: 284px;
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+    }
+
+    .box3 {
+
+
+        margin-top: 24px;
+        width: 573px;
+        height: 284px;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+    }
+
+    .box3 img {
+        padding-top: 32px;
+        width: 72px;
+    }
+
+    h4 {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+
+    .box-content{
+        padding-left: 32px;
+    }
+
+    .box-content .description{
+        max-width: 486px;
+
+    }
+
+    
 
 
 
@@ -545,14 +629,6 @@
         flex-direction: column;
     }
 
-    .popular-tours h3 {
-        color: #131318;
-        font-family: Mulish;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-    }
 
     .description {
         max-width: 335px;
@@ -593,7 +669,7 @@
 
     /* SECTION 3 */
 
-    .section3{
+    .section3 {
         display: block;
         flex-direction: column;
         align-items: center;
@@ -605,24 +681,24 @@
         margin-bottom: 24px;
     }
 
-    .section3 h3{
+    h3 {
         color: #131318;
-text-align: center;
-font-family: Mulish;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
     }
 
-    .section3 small{
+    .section3 p {
         color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-family: Mulish;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; 
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
     }
 
     .image-container1,
@@ -633,7 +709,7 @@ line-height: 24px;
 
     }
 
-    
+
 
     .section3 img {
         width: 100%;
@@ -660,6 +736,36 @@ line-height: 24px;
         left: 50%;
         transform: translate(-50%, -50%);
         padding: 10px;
+    }
+
+
+    /* SECTION 4 */
+    .section4 {
+        display: block;
+        flex-direction: column;
+        
+    }
+
+    .section4 .description{
+        text-align: center;
+    }
+
+    .box-content h4{
+        text-align: left;
+    }
+    .box-content .description{
+        text-align: left;
+
+
+    }
+
+    .box img {
+        padding-top: 32px;
+        height: 48px;
+    }
+    .box3 img {
+        padding-top: 32px;
+        height: 48px;
     }
 
 
