@@ -1,3 +1,4 @@
+@media screen and (min-width: 992px) {
 
     .navbar {
 
@@ -761,6 +762,46 @@
 
 
 
+
+    /* SECTION 8 */
+
+    .section8 {
+        margin-top: 100px;
+        background-image: linear-gradient(180deg, rgba(182, 91, 91, 0.1) 40%, rgba(222, 89, 89, 0) 100%);
+        width: 1170px;
+        border-radius: 25px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section8 .description {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .circle {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .circle img {
+        height: 100%;
+        width: auto;
+        display: block;
+        padding: 2px;
+    }
+
+    .rounded {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
     /* FOOTER SECTION */
 
 
@@ -801,6 +842,7 @@
 
 
 
+}
 
 
 
@@ -1399,6 +1441,10 @@
 
     /* SECTION 7 */
 
+    .section7 {
+        display: block;
+    }
+
     .newsletter {
         width: 100%;
         height: 353px;
@@ -1470,8 +1516,11 @@
     .image-cont {
         background-image: url(../Images/Rectangle\ 8\ \(1\).png);
         width: 100%;
+
         height: 300px;
         border-radius: 16px;
+        background-repeat: no-repeat;
+        background-size: cover;
         position: relative;
     }
 
@@ -1550,6 +1599,45 @@
         font-weight: 800;
         line-height: normal;
     }
+
+
+    /* SECTION 8 */
+
+    .section8 {
+        margin-top: 100px;
+        background-image: linear-gradient(180deg, rgba(182, 91, 91, 0.1) 40%, rgba(222, 89, 89, 0) 100%);
+        width: 100%;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section8 .description {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .circle {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        overflow: hidden;
+    }
+
+    .circle img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .rounded {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 
 
